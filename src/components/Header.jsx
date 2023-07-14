@@ -11,9 +11,9 @@ const Header = (props) => {
             <div>
                 <span className='logo'>House Staff</span>
                 <ul className="nav">
-                    <Link to={`/about`}>О Нас</Link>
-                    <Link to={`/contacts`}>Контакты</Link>
-                    <Link to={`/profile`}>Профиль</Link>
+                    <Link to={`/OnlineReactShop/about`}>О Нас</Link>
+                    <Link to={`/OnlineReactShop/contacts`}>Контакты</Link>
+                    <Link to={`/OnlineReactShop/profile`}>Профиль</Link>
                 </ul>
                 <FaShoppingCart onClick={() => setCartOpen(!cartOpen)} className={`shop-cart-button ${cartOpen && 'active'}`}/>
                 {cartOpen && (

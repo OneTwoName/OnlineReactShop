@@ -9,10 +9,10 @@ export const Router = () => {
   return (
     <BrowserRouter>
         <Routes>
-            <Route element={<App/>} path='/'/>
-            <Route element={<About/>} path='/about'/>
-            <Route element={<Contacts/>} path='/contacts'/>
-            <Route element={<Profile/>} path='/profile'/>
+            <Route element={<App/>} path='/OnlineReactShop'/>
+            <Route element={<About/>} path='/OnlineReactShop/about'/>
+            <Route element={<Contacts/>} path='/OnlineReactShop/contacts'/>
+            <Route element={<Profile/>} path='/OnlineReactShop/profile'/>
 
             <Route element={<div>Not Found</div>} path='*'/>
         </Routes>
